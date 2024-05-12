@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>envio alkemy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styleenvio.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand"><img src="assets/imagenes/alkemy.jpg" alt="Logo" height="30">alkemy wallet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ultimosmovimientos.html">ultimos movimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deposit.html">Depositar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="carta">
+                    <h2 class="text-center mb-4">Realizar Depósito</h2>
+                    <form id="deposito">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rut">RUT:</label>
+                            <input type="text" class="form-control" id="rut" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="valor">Valor a Depositar:</label>
+                            <input type="number" class="form-control" id="valor" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" class="form-control" id="correo" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Realizar Depósito</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <script src="assets/js/enviar dinero.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

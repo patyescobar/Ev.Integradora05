@@ -1,0 +1,13 @@
+body {
+    background-color: #ff7300;
+}
+.container {
+    margin-top: 50px;
+}
+.carta {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 30px;
+}

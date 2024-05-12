@@ -1,0 +1,80 @@
+.depositar-btn {
+    background-color: #a3d977;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.depositar-btn:hover {
+    background-color: #5d884a;
+    background-image: url('../imagenes/deposito.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.enviar-dinero-btn {
+    background-color: #ffbb33;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.enviar-dinero-btn:hover {
+    background-color: #d89f00;
+    background-image: url('../imagenes/enviar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ultimos-movimientos-btn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.ultimos-movimientos-btn:hover {
+    background-color: #003366;
+    background-image: url('../imagenes/ultimos movimientos.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.balance-container {
+    background-color: #6161618f;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.balance {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff942f;
+    margin-bottom: 0;
+}
+
+.balance-amount {
+    color: #ffffff;
+}
